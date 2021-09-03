@@ -102,7 +102,7 @@ $(document).ready(function(){
                 $(this).removeClass("About");
             }
         });
-        $(".soc").each(function(){
+        $(".social").each(function(){
             var $socpos = $(this).offset().top;
             if($winpos>$socpos){
                 $(this).addClass("socials");
